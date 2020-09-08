@@ -1,5 +1,5 @@
 function update() {
-	console.log("123");
+	
 	let htmlCode=document.getElementById("htmlCode").value;
 	let cssCode=document.getElementById("cssCode").value;
 	let javascriptCode=document.getElementById("javascriptCode").value;
@@ -8,5 +8,8 @@ function update() {
 	iframe.open();
 	iframe.write(text);
 	iframe.close();
-	console.log("12345");
+	
 }
+
+Split([".container", ".iframe-container"]);
+//Split(["#htmlCode", "#cssCode", "#javascriptCode"]);
